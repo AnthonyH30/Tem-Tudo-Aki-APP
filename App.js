@@ -6,6 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 import Login from './screens/Login/Login';
 import Principal from './screens/Principal/Principal';
+import Cadastro from './screens/Cadastro/Cadastro';
 
 const Stack = createStackNavigator();
 
@@ -18,6 +19,7 @@ function MyStack() {
     >
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Principal" component={Principal} />
+      <Stack.Screen name="Cadastro" component={Cadastro} />
     </Stack.Navigator>
   );
 }
