@@ -5,8 +5,8 @@ import Icon  from 'react-native-vector-icons/FontAwesome';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 import Login from './screens/Login/Login';
-import Principal from './screens/Principal/Principal';
 import Cadastro from './screens/Cadastro/Cadastro';
+import Principal from './screens/Principal/Principal';
 
 const Stack = createStackNavigator();
 
